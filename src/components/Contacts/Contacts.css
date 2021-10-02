@@ -1,0 +1,30 @@
+.contacts {
+  background-color: hsl(231, 69%, 60%);
+}
+.contacts h6 {
+  color: white;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.contacts h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 1rem 8rem;
+}
+
+@media (max-width: 768px) {
+  .contacts div {
+    width: 100% !important;
+  }
+}
+@media (max-width: 425px) {
+  .contacts div {
+    width: 100% !important;
+  }
+
+  .contacts h1 {
+    margin: 0;
+  }
+}

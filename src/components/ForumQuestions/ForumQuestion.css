@@ -1,0 +1,26 @@
+.card-header {
+  border-bottom: none;
+  background: white;
+}
+
+.card {
+  border: none;
+}
+
+.line__Bottom {
+  border-bottom: 0.5px solid #bbb;
+}
+
+.fa-chevron-down {
+  color: hsl(231, 69%, 60%);
+  font-size: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  .parrafo__Principal {
+    width: 100% !important;
+  }
+  .accordion {
+    width: 100% !important;
+  }
+}

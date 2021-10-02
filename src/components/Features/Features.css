@@ -1,0 +1,11 @@
+.features__Parrafo {
+  margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+  .features__Parrafo {
+    margin: 0;
+    width: 100% !important;
+    font-size: 15px;
+  }
+}

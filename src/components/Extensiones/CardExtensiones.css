@@ -1,0 +1,10 @@
+@media (max-width:425px) {
+    .card{
+        margin-top: 0!important;
+    }
+    
+    button{
+        display: block;
+        margin: 0;
+    }
+}
