@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#!">
-      <img src={logoNavbar}  alt="Logo-Navbar"/>
+      <img src={process.env.PUBLIC_URL + '/logo-bookmark.svg'}  alt="Logo-Navbar"/>
       </a>
       <button
         className="navbar-toggler"
